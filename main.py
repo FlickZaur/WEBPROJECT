@@ -1,11 +1,12 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
 
-@app.route('/project_flick')
+@app.route('/project_flick', methods=['GET'])
 def project():
-    return render_template('WEBpr.html')
+    if request.method == 'GET':
+        return render_template('static/teamplates/WEBpr.html')
 
 
 if __name__ == '__main__':

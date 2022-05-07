@@ -10,6 +10,12 @@ def project():
 <head>
     <meta charset="UTF-8">
     <title>Проект Заурбека</title>
+    <style type="text/css">
+   body {
+        background: url(static/img/gr2.jpg) no-repeat center center fixed;
+        background-size: cover;
+}
+  </style>
 </head>
 <body>
 <header>
@@ -26,6 +32,7 @@ def project():
 <li><a href="#br">Преформатированный текст и переносы</a></li>
 <li><a href="#href">Виды ссылок</a></li>
 <li><a href="img">Картинки</a></li>
+</ol>
 </nav>
 <h4><a name="цели"></a>Цели проекта</h4>
 <ol>
@@ -99,7 +106,7 @@ def project():
     <ins>ИЗОБРАЖЕНИЯ</ins></a></div>
 </article>
 <footer>
-    <h3><a name="docx" href="HTML_and_CSS.docx" download>более подробная информация об HTML(конспект)</a></h3>
+    <h3><a name="docx"></a><a href="HTML_and_CSS.docx" download>более подробная информация об HTML(конспект)</a></h3>
     <h6><a name="pit"></a>Если ты долистал до этого момента, значит тебе было интересно, спасибо)</h6>
 </footer>
 </body>
